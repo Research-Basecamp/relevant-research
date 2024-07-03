@@ -10,6 +10,16 @@
     box-sizing: border-box;
 }
 
+.subtitle {
+    font-style: italic;
+    font-size:32px;
+    display: block; /* Ensures the subtitle is on a new line */
+}
+
+h1 {
+    display: block; /* Ensures the heading is on a new line */
+}
+
 body {
     background-color: #262626;
     color: white;
@@ -24,6 +34,7 @@ body {
     text-align: center;
     flex-grow: 1;
     display: flex;
+    flex-direction: column; /* Ensures the content elements are arranged in a column */
     justify-content: center;
     align-items: center;
 }
